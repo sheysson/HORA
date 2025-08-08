@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusos Horários Globais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tabs-container">
+        <div class="tabs">
+            <button class="tab-button active" data-tab="tab1">Meus Fusos Horários</button>
+            <button class="tab-button" data-tab="tab2">Outras Cidades</button>
+        </div>
+
+        <div id="tab1" class="tab-content active">
+            <h3>Horário Local e de Outros Lugares</h3>
+            <div id="my-timezones" class="timezone-list">
+                </div>
+        </div>
+
+        <div id="tab2" class="tab-content">
+            <h3>Adicionar Cidades</h3>
+            <div class="add-city-form">
+                <input type="text" id="city-input" placeholder="Digite uma cidade, ex: Tokyo">
+                <button id="add-city-button">Adicionar</button>
+            </div>
+            <p class="instruction">Você pode usar essa aba para adicionar fusos horários de outras cidades que desejar.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
