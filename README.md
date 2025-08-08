@@ -11,7 +11,7 @@ Demonstração
 
 Você pode acessar a versão online do projeto e ver a aplicação funcionando diretamente neste link:
 
-Ver o projeto [online](https://sheysson.github.io/HORA/scr/index.html)
+ [Ver o projeto online](https://github.com/sheysson/HORA/tree/main/src/index.html)
 
 Funcionalidades
 
